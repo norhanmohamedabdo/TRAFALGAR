@@ -158,3 +158,44 @@ header .container .logo a {
 .home .container .img img {
   width: 80%;
 }
+.services {
+  padding: 40px 0;
+  background-image: url(../images/blob-2.webp);
+  background-repeat: no-repeat;
+  background-position: 100px 200px;
+}
+.services .container h2 {
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--title-color);
+}
+.services .container p {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 16px;
+  color: var(--text-color);
+}
+.services .container .cards {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.services .container .cards .card {
+  width: 280px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+  background-color: var(--alt-text-color);
+}
+.services .container .cards .card img {
+  width: 50px;
+  display: block;
+  margin-bottom: 20px;
+}
+.services .container .cards .card h3 {
+  font-size: var(--h3-size);
+  color: var(--title-color);
+}
