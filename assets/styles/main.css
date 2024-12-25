@@ -59,17 +59,19 @@ header .container {
   text-align: center;
   align-items: center;
 }
-header .container .logo {
+.container .logo {
   display: flex;
   text-align: center;
   align-items: center;
   gap: 10px;
 }
-header .container .logo .text {
+.container .logo .text {
   padding-top: 10px;
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  align-items: center;
+  text-align: center;
   background-color: var(--main-color);
   font-size: var(--text-size);
   color: var(--alt-text-color);
@@ -337,4 +339,55 @@ header .container .logo a {
 
 .check-out .container .link {
   margin: 50px 0;
+}
+
+/* .links-and-helping .logo{
+  display: flex;
+} */
+footer {
+  background-color: var(--main-color);
+}
+footer .container {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 170px;
+}
+.links-and-helping .logo .text {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: var(--alt-text-color);
+  color: var(--main-color);
+}
+.links-and-helping .logo a {
+  padding-left: 10px;
+  color: var(--alt-text-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+.links-and-helping p {
+  margin: 20px 0;
+  line-height: 22px;
+  font-weight: 100;
+  color: var(--alt-text-color);
+}
+.links-and-helping span {
+  display: block;
+  margin: 40px 0 20px 0;
+  font-size: 14px;
+  font-weight: lighter;
+  color: var(--alt-text-color);
+}
+.links-and-helping h4 {
+  padding-bottom: 13px;
+  font-size: var(--h4-size);
+  color: var(--alt-text-color);
+}
+.links-and-helping ul li {
+  padding: 10px 0;
+}
+.links-and-helping ul li a {
+  color: var(--alt-text-color);
+  font-size: 14px;
 }
